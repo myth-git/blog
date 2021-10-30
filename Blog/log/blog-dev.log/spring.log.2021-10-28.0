@@ -1,0 +1,246 @@
+2021-10-28 11:30:12.981  INFO 12600 --- [restartedMain] com.sise.blog.BlogApplication            : Starting BlogApplication using Java 1.8.0_45 on DESKTOP-9AKDDP9 with PID 12600 (D:\IdeaProject\Blog\target\classes started by 86137 in D:\IdeaProject\Blog)
+2021-10-28 11:30:12.986 DEBUG 12600 --- [restartedMain] com.sise.blog.BlogApplication            : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-28 11:30:12.987  INFO 12600 --- [restartedMain] com.sise.blog.BlogApplication            : The following profiles are active: dev
+2021-10-28 11:30:13.037  INFO 12600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-28 11:30:13.038  INFO 12600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-10-28 11:30:13.879  INFO 12600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-28 11:30:13.996  INFO 12600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 5 JPA repository interfaces.
+2021-10-28 11:30:14.793  INFO 12600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-28 11:30:14.804  INFO 12600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 11:30:14.804  INFO 12600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-28 11:30:14.807  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-10-28 11:30:14.807  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-10-28 11:30:14.807  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-10-28 11:30:14.807  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-28 11:30:14.826  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-10-28 11:30:14.920  INFO 12600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 11:30:14.920  INFO 12600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1882 ms
+2021-10-28 11:30:15.106  INFO 12600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-28 11:30:15.159  INFO 12600 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-28 11:30:15.307  INFO 12600 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-28 11:30:15.412  INFO 12600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-28 11:30:15.414  WARN 12600 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-28 11:30:15.598  INFO 12600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-28 11:30:15.620  INFO 12600 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-10-28 11:30:16.413  INFO 12600 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-28 11:30:16.421  INFO 12600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-28 11:30:17.219  WARN 12600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-28 11:30:17.649  INFO 12600 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 11:30:17.955  INFO 12600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 11:30:17.988  INFO 12600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-28 11:30:17.997  INFO 12600 --- [restartedMain] com.sise.blog.BlogApplication            : Started BlogApplication in 5.654 seconds (JVM running for 6.968)
+2021-10-28 11:30:40.606  INFO 12600 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 11:30:40.608  INFO 12600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-28 11:30:40.610  INFO 12600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-28 11:30:40.669  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.index', args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]}
+2021-10-28 11:30:40.879  WARN 12600 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-10-28 11:30:40.908  WARN 12600 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-10-28 11:30:40.921  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Result：index
+2021-10-28 11:30:40.921  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:30:44.313  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 11:30:44.337  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 11:30:44.338  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:30:56.168  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 11:30:56.181  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 11:30:56.181  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:30:59.370  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.index', args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]}
+2021-10-28 11:30:59.388  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Result：index
+2021-10-28 11:30:59.389  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:25.762  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.index', args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]}
+2021-10-28 11:31:25.783  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Result：index
+2021-10-28 11:31:25.783  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:28.576  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 11:31:28.585  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 11:31:28.585  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:31.113  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TagShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 11:31:31.160  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Result：tags
+2021-10-28 11:31:31.160  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:32.544  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.ArchiveShowController.archives', args=[{}]}
+2021-10-28 11:31:32.580  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Result：archives
+2021-10-28 11:31:32.580  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:35.968  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.AboutShowController.about', args=[]}
+2021-10-28 11:31:35.971  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Result：about
+2021-10-28 11:31:35.971  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:40.287  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.ArchiveShowController.archives', args=[{}]}
+2021-10-28 11:31:40.299  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Result：archives
+2021-10-28 11:31:40.299  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:45.221  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TagShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 11:31:45.240  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : Result：tags
+2021-10-28 11:31:45.240  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:46.658  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 11:31:46.666  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 11:31:46.666  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 11:31:47.651  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.index', args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]}
+2021-10-28 11:31:47.664  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : Result：index
+2021-10-28 11:31:47.664  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:06:51.535  INFO 12600 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-28 12:06:51.543  INFO 12600 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-28 12:06:51.551  INFO 12600 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-10-28 12:06:51.834  INFO 12600 --- [restartedMain] com.sise.blog.BlogApplication            : Starting BlogApplication using Java 1.8.0_45 on DESKTOP-9AKDDP9 with PID 12600 (D:\IdeaProject\Blog\target\classes started by 86137 in D:\IdeaProject\Blog)
+2021-10-28 12:06:51.834 DEBUG 12600 --- [restartedMain] com.sise.blog.BlogApplication            : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-28 12:06:51.834  INFO 12600 --- [restartedMain] com.sise.blog.BlogApplication            : The following profiles are active: dev
+2021-10-28 12:06:52.076  INFO 12600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-28 12:06:52.102  INFO 12600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 5 JPA repository interfaces.
+2021-10-28 12:06:52.265  INFO 12600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-28 12:06:52.265  INFO 12600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-28 12:06:52.265  INFO 12600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-28 12:06:52.266  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-10-28 12:06:52.266  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-10-28 12:06:52.266  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-10-28 12:06:52.266  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-28 12:06:52.267  INFO 12600 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-10-28 12:06:52.288  INFO 12600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-28 12:06:52.288  INFO 12600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 450 ms
+2021-10-28 12:06:52.343  INFO 12600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-28 12:06:52.348  INFO 12600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-10-28 12:06:52.348  WARN 12600 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-28 12:06:52.353  INFO 12600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-10-28 12:06:52.354  INFO 12600 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-10-28 12:06:52.486  INFO 12600 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-28 12:06:52.486  INFO 12600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-28 12:06:52.957  WARN 12600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-28 12:06:53.124  INFO 12600 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-28 12:06:53.289  INFO 12600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-28 12:06:53.302  INFO 12600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-28 12:06:53.306  INFO 12600 --- [restartedMain] com.sise.blog.BlogApplication            : Started BlogApplication in 1.528 seconds (JVM running for 2202.277)
+2021-10-28 12:06:53.307  INFO 12600 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-28 12:06:53.369  INFO 12600 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 12:06:53.370  INFO 12600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-28 12:06:53.371  INFO 12600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-28 12:06:53.378  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.index', args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]}
+2021-10-28 12:06:53.407  WARN 12600 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-10-28 12:06:53.414  WARN 12600 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-10-28 12:06:53.418  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Result：index
+2021-10-28 12:06:53.419  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:06:53.927  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 12:06:53.933  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 12:06:53.934  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:07:01.815  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 12:07:01.829  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 12:07:01.829  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:07:02.241  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 12:07:02.248  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 12:07:02.249  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:07:06.186  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.ArchiveShowController.archives', args=[{}]}
+2021-10-28 12:07:06.206  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Result：archives
+2021-10-28 12:07:06.207  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:07:06.631  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 12:07:06.637  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 12:07:06.637  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:07:12.248  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/26', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.blog', args=[26, {}]}
+2021-10-28 12:07:12.376  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : Result：blog
+2021-10-28 12:07:12.377  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:07:12.999  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 12:07:13.003  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 12:07:13.004  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 12:07:13.205  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/26', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.CommentController.comments', args=[26, {}]}
+2021-10-28 12:07:13.229  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : Result：blog :: commentList
+2021-10-28 12:07:13.229  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:08:11.180  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.index', args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]}
+2021-10-28 13:08:11.208  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Result：index
+2021-10-28 13:08:11.208  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:08:11.684  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:08:11.688  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:08:11.689  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:09:25.839  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/26', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.blog', args=[26, {}]}
+2021-10-28 13:09:25.855  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Result：blog
+2021-10-28 13:09:25.856  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:09:26.503  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:09:26.506  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:09:26.506  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:09:26.615  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/26', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.CommentController.comments', args=[26, {}]}
+2021-10-28 13:09:26.621  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Result：blog :: commentList
+2021-10-28 13:09:26.621  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:12.395  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.index', args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]}
+2021-10-28 13:17:12.411  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Result：index
+2021-10-28 13:17:12.412  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:12.957  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:17:12.962  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:17:12.963  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:15.821  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/5', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], 5, {}]}
+2021-10-28 13:17:15.828  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 13:17:15.828  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:16.376  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:17:16.380  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:17:16.380  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:21.250  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/4', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], 4, {}]}
+2021-10-28 13:17:21.258  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 13:17:21.258  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:21.778  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:17:21.782  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:17:21.782  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:25.060  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/3', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], 3, {}]}
+2021-10-28 13:17:25.066  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 13:17:25.066  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:25.581  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:17:25.587  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:17:25.588  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:32.711  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/tags/20', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TagShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], 20, {}]}
+2021-10-28 13:17:32.736  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Result：tags
+2021-10-28 13:17:32.736  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:33.242  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:17:33.246  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:17:33.246  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:36.771  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TagShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 13:17:36.778  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Result：tags
+2021-10-28 13:17:36.778  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:37.306  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:17:37.310  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:17:37.310  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:41.015  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.TypeShowController.types', args=[Page request [number: 0, size 4, sort: updateTime: DESC], -1, {}]}
+2021-10-28 13:17:41.020  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Result：types
+2021-10-28 13:17:41.020  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:17:41.545  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:17:41.549  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:17:41.549  INFO 12600 --- [http-nio-8080-exec-1] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:27:46.918  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/39', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.blog', args=[39, {}]}
+2021-10-28 13:27:46.929  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Result：blog
+2021-10-28 13:27:46.929  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:27:47.512  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:27:47.516  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:27:47.516  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:27:47.602  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/39', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.CommentController.comments', args=[39, {}]}
+2021-10-28 13:27:47.606  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Result：blog :: commentList
+2021-10-28 13:27:47.607  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:27:57.037  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/38', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.blog', args=[38, {}]}
+2021-10-28 13:27:57.045  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Result：blog
+2021-10-28 13:27:57.045  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:27:57.559  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:27:57.562  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:27:57.563  INFO 12600 --- [http-nio-8080-exec-10] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:27:57.629  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/38', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.CommentController.comments', args=[38, {}]}
+2021-10-28 13:27:57.631  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Result：blog :: commentList
+2021-10-28 13:27:57.631  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:03.122  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.blog', args=[25, {}]}
+2021-10-28 13:28:03.127  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : Result：blog
+2021-10-28 13:28:03.127  INFO 12600 --- [http-nio-8080-exec-4] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:03.641  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:28:03.644  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:28:03.645  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:09.126  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/26', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.blog', args=[26, {}]}
+2021-10-28 13:28:09.137  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Result：blog
+2021-10-28 13:28:09.137  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:09.711  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:28:09.714  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:28:09.715  INFO 12600 --- [http-nio-8080-exec-7] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:09.825  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/26', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.CommentController.comments', args=[26, {}]}
+2021-10-28 13:28:09.828  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : Result：blog :: commentList
+2021-10-28 13:28:09.828  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:22.923  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/39', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.blog', args=[39, {}]}
+2021-10-28 13:28:22.930  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : Result：blog
+2021-10-28 13:28:22.931  INFO 12600 --- [http-nio-8080-exec-6] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:23.477  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:28:23.481  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:28:23.481  INFO 12600 --- [http-nio-8080-exec-3] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:23.554  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/comments/39', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.CommentController.comments', args=[39, {}]}
+2021-10-28 13:28:23.556  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : Result：blog :: commentList
+2021-10-28 13:28:23.556  INFO 12600 --- [http-nio-8080-exec-5] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:33.065  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.index', args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]}
+2021-10-28 13:28:33.076  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : Result：index
+2021-10-28 13:28:33.076  INFO 12600 --- [http-nio-8080-exec-9] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:55.323  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/blog/39', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.blog', args=[39, {}]}
+2021-10-28 13:28:55.333  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : Result：blog
+2021-10-28 13:28:55.333  INFO 12600 --- [http-nio-8080-exec-8] com.sise.blog.aspect.LogAspect           : --------doAfter---------
+2021-10-28 13:28:55.863  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.sise.blog.web.IndexController.newblogs', args=[{}]}
+2021-10-28 13:28:55.868  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : Result：_fragments :: newblogList
+2021-10-28 13:28:55.868  INFO 12600 --- [http-nio-8080-exec-2] com.sise.blog.aspect.LogAspect           : --------doAfter---------
